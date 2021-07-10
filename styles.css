@@ -152,14 +152,6 @@ main {
     margin-top: 20px;
   }
 
-  .image-container {
-    width: 100%;
-  }
-
-  .image-container > img {
-    width: 100%;
-  }
-
   .break {
     display: none;
   }
