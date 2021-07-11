@@ -67,7 +67,7 @@ main {
   color: whitesmoke;
   line-height: 1.4;
   font-size: 2.3rem;
-  font-family: Poppins;
+  font-family: Open Sans;
 }
 
 .break {
@@ -78,7 +78,8 @@ main {
   color: #d8d8d8;
   padding: 20px 0px 10px 0px;
   font-weight: 400;
-  font-family: Open Sans;
+  line-height: 1.6;
+  font-family: Poppins;
 }
 
 .register {
@@ -91,7 +92,7 @@ main {
   margin: 20px 2px;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 15px 60px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -121,15 +122,30 @@ main {
   color: whitesmoke;
 }
 
+.fa-facebook:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: whitesmoke;
+}
+
 .fa-twitter {
   background-color: transparent;
   border: 1px solid whitesmoke;
   color: whitesmoke;
 }
 
+.fa-twitter:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: whitesmoke;
+}
+
 .fa-instagram {
   background-color: transparent;
   border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.fa-instagram:hover {
+  background-color: hsl(300, 69%, 71%);
   color: whitesmoke;
 }
 
