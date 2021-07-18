@@ -11,66 +11,127 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins" />
 
     <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins" />
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans" />
 
-    <title>
-      Frontend Mentor | Huddle landing page with single introductory section
-    </title>
+    <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body>
-    <!--opening tag for main-->
     <main>
-      <!--opening tag for container-->
+      <!---opening tag for container-->
       <div class="container">
-        <!--opening tag for mini container-->
-        <div class="mini-container">
-          <!--opening tag for logo container-->
-          <div class="logo-container">
-            <img src="./images/logo.svg" alt="logo" />
-          </div>
-          <!--closing tag for logo container-->
-
-          <!--opening tag for image-container-->
-          <div class="image-container">
-            <img src="./images/illustration-mockups.svg" alt="mockups" />
-          </div>
-          <!--closing tag for image container-->
-        </div>
-        <!--closing tag for mini container-->
-        <!--opening tag for mini-container1-->
-        <div class="mini-container1">
+        <!---opening tag for content container-->
+        <div class="content-container">
           <div class="content">
             <h1 class="heading">
-              Build The Community <br class="break" />
-              Your Fans Will Love
+              Learn to code by <br />
+              watching others
             </h1>
             <p class="paragraph">
-              Huddle re-imagines the way we build communities. You have a voice,
-              but so does your audience. Create connections with your users as
-              you engage in genuine discussion.
+              See how experienced developers solve problems in real-time.
+              Watching scripted tutorials is great, but understanding how
+              developers think is invaluable.
             </p>
-            <div class="center">
-              <button class="register">Register</button>
-            </div>
-            <div class="social-media">
-              <a href="#" class="fa fa-facebook" aria-label="facebook"></a>
-              <a href="#" class="fa fa-twitter" aria-label="twitter"></a>
-              <a href="#" class="fa fa-instagram" aria-label="instagram"></a>
-            </div>
           </div>
         </div>
-        <!--closing tag for mini-container1-->
+        <!---closing tag for content container-->
+        <div class="form-container">
+          <div class="earning">
+            <h2>Try it free 7 days then $20/mo. thereafter</h2>
+          </div>
+
+          <div class="form">
+            <form>
+              <div class="firstname-container">
+                <div class="image-containner">
+                  <img
+                    src="./images/icon-error.svg"
+                    alt="icon-error"
+                    id="forname"
+                  />
+                </div>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="First Name"
+                />
+              </div>
+              <p id="error-message">First Name cannot be empty</p>
+              <p id="error-messages">First Name is not valid</p>
+              <div class="lastname-container">
+                <div class="image-container">
+                  <img
+                    src="./images/icon-error.svg"
+                    id="lasname"
+                    alt="icon-error"
+                  />
+                </div>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Last Name"
+                />
+              </div>
+              <p id="error-message1">Last Name cannot be empty</p>
+              <p id="error-messages1">Last Name is not Valid</p>
+              <div class="email-container">
+                <div class="image-container">
+                  <img
+                    src="./images/icon-error.svg"
+                    id="emailerror"
+                    alt="icon-error"
+                  />
+                </div>
+
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                />
+              </div>
+              <p id="error-message2">Email cannot be empty</p>
+              <p id="error-messages2">Looks like this is not a Valid email</p>
+              <div class="pass-container">
+                <div class="image-container">
+                  <img
+                    src="./images/icon-error.svg"
+                    id="pass-error"
+                    alt="icon-error"
+                  />
+                </div>
+                <input
+                  type="text"
+                  id="password"
+                  name="email"
+                  placeholder="Password"
+                />
+              </div>
+              <p id="error-message3">Password cannot be empty</p>
+              <p id="error-messages3">
+                Password must contain an uppercase letter, a number and must be
+                a minimum of 8 characters m
+              </p>
+
+              <button type="button" id="claim" onclick="PerformCheck()">
+                Claim your free trial
+              </button>
+            </form>
+            <p class="paragraph2">
+              By clicking the button, you are agreeing to our
+              <span style="color: hsl(0, 100%, 74%)">Terms and Services</span>
+            </p>
+          </div>
+        </div>
+        <!---closing tag for form container-->
+        <!---closing tag for form container-->
       </div>
-      <!--closing tag for container-->
+      <!---closing tag for container-->
     </main>
-    <!--closing tag for main-->
 
     <footer>
       <p class="attribution">
@@ -80,5 +141,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>
