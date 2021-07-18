@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -71,8 +70,8 @@ main {
   color: whitesmoke;
   line-height: 1.4;
   font-size: 2.3rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .break {
@@ -131,8 +130,8 @@ main {
 }
 
 .fa-facebook:hover {
-  background-color: hsl(300, 69%, 71%);
-  color: whitesmoke;
+  border: 1px solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%) !important;
 }
 
 .fa-twitter {
@@ -142,8 +141,8 @@ main {
 }
 
 .fa-twitter:hover {
-  background-color: hsl(300, 69%, 71%);
-  color: whitesmoke;
+  border: 1px solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%) !important;
 }
 
 .fa-instagram {
@@ -153,8 +152,8 @@ main {
 }
 
 .fa-instagram:hover {
-  background-color: hsl(300, 69%, 71%);
-  color: whitesmoke;
+  border: 1px solid hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%) !important;
 }
 
 .social-media {
